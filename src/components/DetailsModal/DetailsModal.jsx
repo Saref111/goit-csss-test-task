@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import { ReactComponent as Star } from "../../icons/star.svg";
 import { ReactComponent as MapPinIcon } from "../../icons/map-pin.svg"; 
 import { Features } from "../Features/Features";
+import { Reviews } from "../Reviews/Reviews";
 import "./DetailsModal.css";
 
 export const DetailsModal = ({ item }) => {
@@ -49,7 +50,7 @@ export const DetailsModal = ({ item }) => {
                             </li>
                         </ul>
                         {tab === 'features' && <Features item={item}/>}
-                        {/* {tab === 'reviews' && <Reviews reviews={item.reviews}/>} */}
+                        {tab === 'reviews' && <Reviews reviews={item.reviews}/>}
                     </div>
                 </div>
             </div>
