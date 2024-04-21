@@ -141,3 +141,12 @@
     height: 2px;
     background-color: rgba(228, 72, 72, 1);
 }
+
+.details__price {
+  font-family: Inter, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  margin-bottom: 0;
+}

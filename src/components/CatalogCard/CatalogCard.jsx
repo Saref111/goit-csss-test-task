@@ -37,7 +37,7 @@ export const CatalogCard = ({ item }) => {
                         </span>
                         <span className="catalog-card__prop"><MapPinIcon />{item.location}</span>
                     </div>
-                    <p className="catalog-card__price">€{item.price}</p>
+                    <p className="catalog-card__price">€{item.price}.00</p>
                     <button aria-label="Favorites" className="catalog-card__fav" onClick={toggleFavorite}>
                         {isFavorite ? <FavotiresIconActive /> : <FavotiresIcon />}
                     </button>

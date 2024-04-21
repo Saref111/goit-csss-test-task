@@ -29,6 +29,7 @@ export const DetailsModal = ({ item }) => {
                             {item.reviews.length && <Link to={`/${item._id}/reviews`}>({item.reviews.length} Reviews)</Link>}
                         </span>
                         <span className="details__prop"><MapPinIcon />{item.location}</span>
+                        <p className="details__price">€{item.price}.00</p>
                     </div>
                     <button onClick={handleClose} className="details__close" aria-label="close"></button>
                 </div>
