@@ -14,18 +14,17 @@
 .catalog-card__header {
   display: flex;
   align-items: center;
-  margin-bottom: 16px;
 }
 
 .catalog-card__info {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 24px;
   width: 100%;
 }
 
 .catalog-card__name {
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-size: 24px;
   font-weight: 600;
   line-height: 30px;
@@ -36,25 +35,47 @@
 .catalog-card__price {
   margin-left: auto;
   margin-right: 11px;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-size: 24px;
   font-weight: 600;
   line-height: 30px;
   text-align: left;
 }
 
-.catalog-card__rating {
-  display: flex;
+.catalog-card__prop {
+  display: inline-flex;
   gap: 8px;
   align-items: center;
-  font-family: Inter;
+  vertical-align: middle;
+  font-family: Inter, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   text-align: left;
 }
 
+.catalog-card__prop:not(:last-child) {
+  margin-right: 16px;
+}
+
 .catalog-card__fav {
-    background-color: transparent;
-    border: none;
+  background-color: transparent;
+  border: none;
+}
+
+.catalog-card__description {
+  font-family: Inter, sans-serif;
+  margin: 0;
+  height: 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 525px;
+
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(71, 84, 103, 1);
 }
