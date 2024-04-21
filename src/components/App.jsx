@@ -2,6 +2,7 @@ import Home from "../pages/HomePage/HomePage";
 import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Header } from "./Header/Header";
+import { CatalogPage } from "pages/CatalogPage/CatalogPage";
 
 const router = createBrowserRouter([
   {
@@ -10,7 +11,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/catalog",
-    element: <div>Catalog page</div>,
+    element: <CatalogPage />,
   },
   {
     path: "/favorites",

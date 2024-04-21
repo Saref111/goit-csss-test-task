@@ -25,21 +25,21 @@
 .section-title {
   font-size: 24px;
   font-weight: bold;
-  color: #2980b9; /* синій колір */
+  color: #2980b9; 
   margin-bottom: 10px;
 }
 
 .sub-section-title {
   font-size: 20px;
   font-weight: bold;
-  color: #2980b9; /* синій колір */
+  color: #2980b9; 
   margin-top: 20px;
   margin-bottom: 10px;
 }
 
 .services p {
   font-size: 16px;
-  color: #34495e; /* синій колір */
+  color: #34495e; 
   line-height: 1.5;
 }
 
@@ -49,7 +49,7 @@
 }
 
 .services li {
-  color: #34495e; /* синій колір */
+  color: #34495e;
   margin-bottom: 5px;
 }
 
@@ -59,11 +59,11 @@
 
 .contact-info p {
   font-size: 16px;
-  color: #34495e; /* синій колір */
+  color: #34495e; 
 }
 
 .footer-text {
   font-size: 16px;
-  color: #95a5a6; /* світло-сірий колір */
+  color: #95a5a6;
   margin-top: 20px;
 }
