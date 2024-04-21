@@ -7,6 +7,7 @@ import { ReactComponent as Star } from "../../icons/star.svg";
 import { ReactComponent as MapPinIcon } from "../../icons/map-pin.svg"; 
 import { Features } from "../Features/Features";
 import { Reviews } from "../Reviews/Reviews";
+import { BookingForm } from "../BookingForm/BookingForm";
 import "./DetailsModal.css";
 
 export const DetailsModal = ({ item }) => {
@@ -51,6 +52,7 @@ export const DetailsModal = ({ item }) => {
                         </ul>
                         {tab === 'features' && <Features item={item}/>}
                         {tab === 'reviews' && <Reviews reviews={item.reviews}/>}
+                        <BookingForm />
                     </div>
                 </div>
             </div>

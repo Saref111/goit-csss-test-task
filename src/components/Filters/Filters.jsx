@@ -7,6 +7,7 @@ import { selectFilter } from "../../store/filterSelectors";
 import { setLimit, setLocation, setPage } from "../../store/filtersSlice";
 import { fetchCatalog } from "store/catalogThunks";
 import { fetchCatalogSuccess } from "store/catalogSlice";
+import { TextInput } from "components/TextInput/TextInput";
 
 export const Filters = () => {
     const dispatch = useDispatch();
@@ -27,13 +28,13 @@ export const Filters = () => {
         <form onSubmit={onFormSubmit} className="filters-form">
             <fieldset>
                 <legend>Location</legend>
-                <input
-                    onChange={onLocationChange}
-                    value={location}
-                    type="text"
-                    placeholder="City"
-                    name="location"
-                    className="filters-form__text-input filters-form__text-input--location"
+                <TextInput
+                    type="text" 
+                    name="location" 
+                    placeholder="City" 
+                    value={location} 
+                    onChange={onLocationChange} 
+                    className={"text-input--location"}
                 />
             </fieldset>
             <fieldset>

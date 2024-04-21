@@ -99,6 +99,7 @@
 .details__tabs {
     display: flex;
     flex-wrap: wrap;
+    gap: 16px;
 }
 
 .details__tabs-nav {

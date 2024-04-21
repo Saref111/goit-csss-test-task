@@ -1,0 +1,9 @@
+.booking-form {
+    border: 1px solid rgba(16, 24, 40, 0.2);
+    border-radius: 10px;
+    padding: 24px;
+}
+
+.booking-form  h2 {
+    margin: 0;
+}
