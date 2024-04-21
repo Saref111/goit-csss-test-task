@@ -1,14 +1,20 @@
 .text-input {
-    width: 100%;
-    padding: 18px;
-    background-color: rgba(247, 247, 247, 1);
-  
-    background-repeat: no-repeat;
-    border-radius: 10px;
-    border: none;
-  }
-  .text-input--location {
-    padding-left: 44px;
-    background-image: url('../../icons/map-pin.svg');
-    background-position: 20px center;
-  }
+  width: 100%;
+  padding: 18px;
+  background-color: rgba(247, 247, 247, 1);
+
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  border: none;
+}
+.text-input--location {
+  padding-left: 44px;
+  background-image: url('../../icons/map-pin.svg');
+  background-position: 20px center;
+}
+
+.text-input[type=date]:invalid::-webkit-datetime-edit{
+    color: rgba(16, 24, 40, 0.4);
+    font-size: 16px;
+    color: rgba(16, 24, 40, 0.4);
+}

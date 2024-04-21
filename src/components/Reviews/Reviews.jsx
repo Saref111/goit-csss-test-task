@@ -11,7 +11,7 @@ const getStars = (rating) => {
 
 export const Reviews = ({ reviews }) => {
     return (
-        <ul className="reviews">
+        <ul className="reviews" style={{width: '50%'}}>
             {reviews.map((review, index) => (
                 <li key={index} className="reviews__item">
                     <div className="reviews__header">
