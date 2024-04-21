@@ -1,0 +1,16 @@
+.header {
+    background-color: #dfdcdc;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    display: flex;
+    max-width: min-content;
+    list-style-type: none;
+    padding: 0;
+    gap: 25px;
+}
