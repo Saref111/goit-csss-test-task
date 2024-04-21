@@ -57,7 +57,7 @@ export const filtercheckboxIconsMap = {
   ac: <AirConditionerIcon width={32} height={20}/>,
   automatic: <AutomaticIcon />,
   tv: <TVIcon />,
-  vt1: <VT1Icon />,
-  vt2: <VT2Icon />,
-  vt3: <VT3Icon />,
+  panelTruck: <VT1Icon />,
+  fullyIntegrated: <VT2Icon />,
+  alcove: <VT3Icon />,
 };

@@ -4,6 +4,9 @@ const initialState = {
   page: 1,
   limit: 4,
   outOfLimit: false,
+  location: '',
+  details: [],
+  type: '',
 };
 
 const filterSlice = createSlice({
@@ -22,9 +25,30 @@ const filterSlice = createSlice({
     setOutOfLimit: (state) => {
       state.outOfLimit = true;
     },
+    setLocation: (state, action) => {
+      state.location = action.payload;
+    },
+    addDetail: (state, action) => {
+      state.details = [...state.details, action.payload];
+    },
+    removeDetail: (state, action) => {
+      state.details = state.details.filter((detail) => detail !== action.payload);
+    },
+    setType: (state, action) => {
+      state.type = action.payload;
+    },
   },
 });
 
-export const { loadMore, setPage, setPagesCount, setOutOfLimit } = filterSlice.actions;
+export const { 
+  loadMore, 
+  setPage, 
+  setPagesCount, 
+  setOutOfLimit,
+  setLocation,
+  addDetail,
+  removeDetail,
+  setType,
+} = filterSlice.actions;
 
 export default filterSlice.reducer;
