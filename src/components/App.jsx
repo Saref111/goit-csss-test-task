@@ -1,8 +1,9 @@
 import Home from "../pages/HomePage/HomePage";
-import React from "react";
+import React, { useEffect } from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Header } from "./Header/Header";
 import { CatalogPage } from "pages/CatalogPage/CatalogPage";
+import { getCampers } from "services/api";
 
 const router = createBrowserRouter([
   {
