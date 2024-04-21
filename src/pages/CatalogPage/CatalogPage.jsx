@@ -2,6 +2,7 @@ import { Header } from "components/Header/Header";
 import React, { useEffect, useState } from "react";
 import { getCampers } from "services/api";
 import { CatalogList } from "components/CatalogList/CatalogList";
+import "./CatalogPage.css";
 
 
 export const CatalogPage = () => {
@@ -20,12 +21,14 @@ export const CatalogPage = () => {
     return (
         <>
             <Header />
-            <section className="catalog-container">
-                <aside>
-                    FiltersForm
-                </aside>
-                <div>
-                    <CatalogList items={campers} />
+            <section className="section">
+                <div className="section__wrapper">
+                    <aside className="section__aside">
+                        FiltersForm
+                    </aside>
+                    <div>
+                        <CatalogList items={campers} />
+                    </div>
                 </div>
             </section>
         </>
