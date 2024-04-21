@@ -1,13 +1,34 @@
 {
   "files": {
-    "main.css": "/goit-csss-test-task/static/css/main.7acaea2f.css",
-    "main.js": "/goit-csss-test-task/static/js/main.07d3183d.js",
+    "main.css": "/goit-csss-test-task/static/css/main.d5747c2e.css",
+    "main.js": "/goit-csss-test-task/static/js/main.d0a57b48.js",
+    "static/media/vt3.svg": "/goit-csss-test-task/static/media/vt3.5da29d6375d54a792e0075353771c2ed.svg",
+    "static/media/vt1.svg": "/goit-csss-test-task/static/media/vt1.6df8917ba195d7f5fdf6259e0fcc485f.svg",
+    "static/media/vt2.svg": "/goit-csss-test-task/static/media/vt2.58e35328efcfa145aa485a99fc3a7470.svg",
+    "static/media/toilet.svg": "/goit-csss-test-task/static/media/toilet.056f7d0257598d734ce66b585f1953f4.svg",
+    "static/media/radio.svg": "/goit-csss-test-task/static/media/radio.1cf92f2718cf0af7df3fba6253746cd1.svg",
+    "static/media/ac.svg": "/goit-csss-test-task/static/media/ac.801ee4e86cf8e64831cf9335da296b0d.svg",
+    "static/media/gas.svg": "/goit-csss-test-task/static/media/gas.27ca8224914f9290886f1a946e131611.svg",
+    "static/media/automatic.svg": "/goit-csss-test-task/static/media/automatic.a29524c894cb6e996582b950ba132143.svg",
+    "static/media/bed.svg": "/goit-csss-test-task/static/media/bed.d6a56c2ebc8293a6f3dedf0640196fb4.svg",
     "index.html": "/goit-csss-test-task/index.html",
-    "main.7acaea2f.css.map": "/goit-csss-test-task/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/goit-csss-test-task/static/js/main.07d3183d.js.map"
+    "static/media/hob.svg": "/goit-csss-test-task/static/media/hob.801d23c0fafb3203677b62e341d96d85.svg",
+    "static/media/microwave.svg": "/goit-csss-test-task/static/media/microwave.ff25daf0bb5ae7da40b75877e921b9c4.svg",
+    "static/media/heart.svg": "/goit-csss-test-task/static/media/heart.68ca0cff0a9dce0b495fb17cc85d0c75.svg",
+    "static/media/freezer.svg": "/goit-csss-test-task/static/media/freezer.eab4831fdd0556e9734385513f572718.svg",
+    "static/media/heart-red.svg": "/goit-csss-test-task/static/media/heart-red.2d8ee5a1b5177652e89cecdb8d299de1.svg",
+    "static/media/star.svg": "/goit-csss-test-task/static/media/star.daa20adc38a46a17c6b14fd471c62a1e.svg",
+    "static/media/water.svg": "/goit-csss-test-task/static/media/water.031b27b6da6a7bace73fd9b66d2cdd06.svg",
+    "static/media/map-pin.svg": "/goit-csss-test-task/static/media/map-pin.b71da3408d38a9d82b46999cad2f4d51.svg",
+    "static/media/cd.svg": "/goit-csss-test-task/static/media/cd.37a898f486521fcfd8dbbdfcf1d668a9.svg",
+    "static/media/tv.svg": "/goit-csss-test-task/static/media/tv.c36553f4b43a226dc725a63c6c55c326.svg",
+    "static/media/bathroom.svg": "/goit-csss-test-task/static/media/bathroom.ceec1d42844678d4d1ce8b094c6c123a.svg",
+    "static/media/kitchen.svg": "/goit-csss-test-task/static/media/kitchen.ed9be8faff845908aa75dcc7561daaa2.svg",
+    "main.d5747c2e.css.map": "/goit-csss-test-task/static/css/main.d5747c2e.css.map",
+    "main.d0a57b48.js.map": "/goit-csss-test-task/static/js/main.d0a57b48.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.d5747c2e.css",
+    "static/js/main.d0a57b48.js"
   ]
 }
