@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/goit-csss-test-task/static/css/main.d5747c2e.css",
-    "main.js": "/goit-csss-test-task/static/js/main.d0a57b48.js",
+    "main.css": "/goit-csss-test-task/static/css/main.8ce55245.css",
+    "main.js": "/goit-csss-test-task/static/js/main.f176262f.js",
     "static/media/vt3.svg": "/goit-csss-test-task/static/media/vt3.5da29d6375d54a792e0075353771c2ed.svg",
     "static/media/vt1.svg": "/goit-csss-test-task/static/media/vt1.6df8917ba195d7f5fdf6259e0fcc485f.svg",
     "static/media/vt2.svg": "/goit-csss-test-task/static/media/vt2.58e35328efcfa145aa485a99fc3a7470.svg",
@@ -24,11 +24,11 @@
     "static/media/tv.svg": "/goit-csss-test-task/static/media/tv.c36553f4b43a226dc725a63c6c55c326.svg",
     "static/media/bathroom.svg": "/goit-csss-test-task/static/media/bathroom.ceec1d42844678d4d1ce8b094c6c123a.svg",
     "static/media/kitchen.svg": "/goit-csss-test-task/static/media/kitchen.ed9be8faff845908aa75dcc7561daaa2.svg",
-    "main.d5747c2e.css.map": "/goit-csss-test-task/static/css/main.d5747c2e.css.map",
-    "main.d0a57b48.js.map": "/goit-csss-test-task/static/js/main.d0a57b48.js.map"
+    "main.8ce55245.css.map": "/goit-csss-test-task/static/css/main.8ce55245.css.map",
+    "main.f176262f.js.map": "/goit-csss-test-task/static/js/main.f176262f.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5747c2e.css",
-    "static/js/main.d0a57b48.js"
+    "static/css/main.8ce55245.css",
+    "static/js/main.f176262f.js"
   ]
 }
