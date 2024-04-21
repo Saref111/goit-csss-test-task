@@ -99,4 +99,5 @@
   line-height: 20px;
   text-align: center;
   color: rgba(16, 24, 40, 1);
+  display: flex;
 }
