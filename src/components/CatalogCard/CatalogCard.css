@@ -80,24 +80,3 @@
   color: rgba(71, 84, 103, 1);
 }
 
-.catalog-card__categories {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  max-height: 96px;
-  overflow: hidden;
-}
-
-.catalog-card__categories li {
-  padding: 12px 18px 12px 18px;
-  background-color: rgba(242, 244, 247, 1);
-  width: fit-content;
-  border-radius: 100px;
-  font-family: Inter;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 20px;
-  text-align: center;
-  color: rgba(16, 24, 40, 1);
-  display: flex;
-}
