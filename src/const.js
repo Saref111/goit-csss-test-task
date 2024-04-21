@@ -11,6 +11,10 @@ import { ReactComponent as GasIcon } from './icons/gas.svg';
 import { ReactComponent as MicrowaveIcon } from './icons/microwave.svg';
 import { ReactComponent as WaterIcon } from './icons/water.svg';
 import { ReactComponent as ToiletIcon } from './icons/toilet.svg';
+import { ReactComponent as AutomaticIcon } from './icons/automatic.svg';
+import { ReactComponent as VT1Icon } from './icons/vt1.svg';
+import { ReactComponent as VT2Icon } from './icons/vt2.svg';
+import { ReactComponent as VT3Icon } from './icons/vt3.svg';
 
 
 export const detailsNamesMap = {
@@ -45,4 +49,15 @@ export const detailsIconsMap = {
   shower: <BathroomIcon width={20} height={20} viewBox="0 0 25 25" />,
   toilet: <ToiletIcon />,
   water: <WaterIcon />,
+};
+
+export const filtercheckboxIconsMap = {
+  shower: <BathroomIcon />,
+  kitchen: <KitchenIcon />,
+  ac: <AirConditionerIcon width={32} height={20}/>,
+  automatic: <AutomaticIcon />,
+  tv: <TVIcon />,
+  vt1: <VT1Icon />,
+  vt2: <VT2Icon />,
+  vt3: <VT3Icon />,
 };

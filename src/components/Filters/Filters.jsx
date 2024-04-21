@@ -1,3 +1,6 @@
+import { FilterCheckbox } from "./FilterCheckbox";
+import './Filters.css';
+
 export const Filters = () => {
     return (
         <form className="filters-form">
@@ -9,8 +12,17 @@ export const Filters = () => {
                 <legend>Filters</legend>
                 <div>
                     <p>Vehicle equipment</p>
-                    <label className="filter-item" htmlFor="ac-input">AC</label>
-                    <input type="checkbox" id="ac-input" name="ac"/>
+                    <FilterCheckbox id="ac" name="AC" />
+                    <FilterCheckbox id="automatic" name="Automatic" />
+                    <FilterCheckbox id="kitchen" name="Kitchen" />
+                    <FilterCheckbox id="tv" name="TV" />
+                    <FilterCheckbox id="shower" name="Shower/WC" />
+                </div>
+                <div>
+                    <p>Vehicle type</p>
+                    <FilterCheckbox id="vt1" name="Van" />
+                    <FilterCheckbox id="vt2" name="Fully Integrated" />
+                    <FilterCheckbox id="vt3" name="Alcove" />
                 </div>
             </fieldset>
         </form> 

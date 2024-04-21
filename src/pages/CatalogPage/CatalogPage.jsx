@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import { getCampers } from "services/api";
 import { CatalogList } from "components/CatalogList/CatalogList";
 import "./CatalogPage.css";
+import { Filters } from "components/Filters/Filters";
 
 
 export const CatalogPage = () => {
@@ -24,7 +25,7 @@ export const CatalogPage = () => {
             <section className="section">
                 <div className="section__wrapper">
                     <aside className="section__aside">
-                        FiltersForm
+                       <Filters />
                     </aside>
                     <div>
                         <CatalogList items={campers} />

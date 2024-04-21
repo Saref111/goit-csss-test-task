@@ -5,7 +5,6 @@ import { ReactComponent as FavotiresIconActive } from "../../icons/heart-red.svg
 import { ReactComponent as MapPinIcon } from "../../icons/map-pin.svg";
 import "./CatalogCard.css";
 import { ActionButton } from "components/ActionButton/ActionButton";
-import { detailsNamesMap, detailsIconsMap } from "../../const";
 import { CategoriesList } from "components/CategoriesList/CategoriesList";
 
 export const CatalogCard = ({ item }) => {
