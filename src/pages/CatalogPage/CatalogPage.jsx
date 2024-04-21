@@ -36,7 +36,7 @@ export const CatalogPage = () => {
                     {error ? 'Something went wrong, please try again later.' 
                     : <div>
                         {loading ? 'Loading...' : <CatalogList items={campers} />}
-                    {!outOfLimit && <button onClick={onLoadMore}>Load More</button>}
+                    {!outOfLimit && <button className="load-more" onClick={onLoadMore}>Load More</button>}
                     </div>}
                 </div>
             </section>

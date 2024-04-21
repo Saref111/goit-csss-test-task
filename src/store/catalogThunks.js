@@ -11,7 +11,7 @@ export const fetchCatalog = createAsyncThunk(
       dispatch(fetchCatalogStart());
       const response = await getCampers(filter.page, filter.limit);
 
-      if (response.data.length <= catalog.items.length) {
+      if (response.data.length < catalog.items.length + 4) {
         dispatch(setOutOfLimit());
       }
       dispatch(fetchCatalogSuccess(response.data));
