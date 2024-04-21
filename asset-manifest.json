@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/goit-csss-test-task/static/css/main.8ce55245.css",
-    "main.js": "/goit-csss-test-task/static/js/main.f176262f.js",
+    "main.css": "/goit-csss-test-task/static/css/main.b618f7cb.css",
+    "main.js": "/goit-csss-test-task/static/js/main.b8992f02.js",
     "static/media/vt3.svg": "/goit-csss-test-task/static/media/vt3.5da29d6375d54a792e0075353771c2ed.svg",
     "static/media/vt1.svg": "/goit-csss-test-task/static/media/vt1.6df8917ba195d7f5fdf6259e0fcc485f.svg",
     "static/media/vt2.svg": "/goit-csss-test-task/static/media/vt2.58e35328efcfa145aa485a99fc3a7470.svg",
@@ -17,6 +17,8 @@
     "static/media/heart.svg": "/goit-csss-test-task/static/media/heart.68ca0cff0a9dce0b495fb17cc85d0c75.svg",
     "static/media/freezer.svg": "/goit-csss-test-task/static/media/freezer.eab4831fdd0556e9734385513f572718.svg",
     "static/media/heart-red.svg": "/goit-csss-test-task/static/media/heart-red.2d8ee5a1b5177652e89cecdb8d299de1.svg",
+    "static/media/gold-star.svg": "/goit-csss-test-task/static/media/gold-star.3b2f0a6ab58c198354cd5e85511b362d.svg",
+    "static/media/grey-star.svg": "/goit-csss-test-task/static/media/grey-star.2723b2b0d4e4eeb300808146c0c2ae52.svg",
     "static/media/star.svg": "/goit-csss-test-task/static/media/star.daa20adc38a46a17c6b14fd471c62a1e.svg",
     "static/media/water.svg": "/goit-csss-test-task/static/media/water.031b27b6da6a7bace73fd9b66d2cdd06.svg",
     "static/media/map-pin.svg": "/goit-csss-test-task/static/media/map-pin.b71da3408d38a9d82b46999cad2f4d51.svg",
@@ -24,11 +26,11 @@
     "static/media/tv.svg": "/goit-csss-test-task/static/media/tv.c36553f4b43a226dc725a63c6c55c326.svg",
     "static/media/bathroom.svg": "/goit-csss-test-task/static/media/bathroom.ceec1d42844678d4d1ce8b094c6c123a.svg",
     "static/media/kitchen.svg": "/goit-csss-test-task/static/media/kitchen.ed9be8faff845908aa75dcc7561daaa2.svg",
-    "main.8ce55245.css.map": "/goit-csss-test-task/static/css/main.8ce55245.css.map",
-    "main.f176262f.js.map": "/goit-csss-test-task/static/js/main.f176262f.js.map"
+    "main.b618f7cb.css.map": "/goit-csss-test-task/static/css/main.b618f7cb.css.map",
+    "main.b8992f02.js.map": "/goit-csss-test-task/static/js/main.b8992f02.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ce55245.css",
-    "static/js/main.f176262f.js"
+    "static/css/main.b618f7cb.css",
+    "static/js/main.b8992f02.js"
   ]
 }
