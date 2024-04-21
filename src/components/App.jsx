@@ -1,9 +1,9 @@
 import Home from "../pages/HomePage/HomePage";
-import React, { useEffect } from "react";
+import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { Header } from "./Header/Header";
 import { CatalogPage } from "pages/CatalogPage/CatalogPage";
-import { getCampers } from "services/api";
+import { Provider } from 'react-redux';
+import store from "store/store";
 
 const router = createBrowserRouter([
   {
@@ -31,7 +31,9 @@ export const App = () => {
   return (
 
     <React.StrictMode>
-      <RouterProvider router={router} />
+      <Provider store={store}>
+        <RouterProvider router={router} />
+      </Provider>
     </React.StrictMode>
   );
 };

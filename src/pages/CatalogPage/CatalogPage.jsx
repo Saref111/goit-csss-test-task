@@ -1,24 +1,19 @@
 import { Header } from "components/Header/Header";
-import React, { useEffect, useState } from "react";
-import { getCampers } from "services/api";
+import React, { useEffect } from "react";
 import { CatalogList } from "components/CatalogList/CatalogList";
 import "./CatalogPage.css";
 import { Filters } from "components/Filters/Filters";
+import { useDispatch, useSelector } from "react-redux";
+import { fetchCatalog } from "store/catalogThunks";
 
 
 export const CatalogPage = () => {
-    const [campers, setCampers] = useState([]);
-    useEffect(() => {
-        const fetchCampers = async () => {
-            try {
-                const campers = await getCampers();
-                setCampers(campers);
-            } catch (error) {
-                console.log(error);
-            }
-        };
-        fetchCampers();
-    }, []);
+    const dispatch = useDispatch();
+    const campers = useSelector((state) => state.catalog.items);
+    console.log(campers);
+  useEffect(() => {
+    dispatch(fetchCatalog());
+  }, [dispatch]);
     return (
         <>
             <Header />

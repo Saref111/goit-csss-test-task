@@ -6,5 +6,5 @@ const api = axios.create({
 
 export const getCampers = async (page = 1, limit = 4) => {
     const response = await api.get(`/advert?page=${page}&limit=${limit}`);
-    return response.data;
+    return response;
 }
