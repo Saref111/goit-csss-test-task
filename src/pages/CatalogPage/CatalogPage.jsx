@@ -6,6 +6,8 @@ import { Filters } from "components/Filters/Filters";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchCatalog } from "store/catalogThunks";
 import { selectItems, selectLoading, selectError } from "store/catalogSelectors";
+import { selectFilter } from "store/filterSelectors";
+import { loadMore } from "store/filtersSlice";
 
 
 export const CatalogPage = () => {
@@ -13,10 +15,16 @@ export const CatalogPage = () => {
     const campers = useSelector(selectItems);
     const loading = useSelector(selectLoading);
     const error = useSelector(selectError);
+    const { outOfLimit } = useSelector(selectFilter);
 
     useEffect(() => {
         dispatch(fetchCatalog());
     }, [dispatch]);
+
+    const onLoadMore = () => {
+        dispatch(loadMore());
+        dispatch(fetchCatalog());
+    };
     return (
         <>
             <Header />
@@ -28,6 +36,7 @@ export const CatalogPage = () => {
                     {error ? 'Something went wrong, please try again later.' 
                     : <div>
                         {loading ? 'Loading...' : <CatalogList items={campers} />}
+                    {!outOfLimit && <button onClick={onLoadMore}>Load More</button>}
                     </div>}
                 </div>
             </section>

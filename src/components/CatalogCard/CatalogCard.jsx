@@ -13,7 +13,7 @@ import { addFavorite, removeFavorite } from "../../store/favoritesSlice";
 export const CatalogCard = ({ item }) => {
     const dispatch = useDispatch();
     const isFavorite = useSelector((state) => selectIsFavorite(state, item._id));
-    console.log(isFavorite);
+
     const toggleFavorite = () => {
         dispatch(isFavorite ? removeFavorite(item._id) : addFavorite(item));
     };
