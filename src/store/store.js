@@ -3,6 +3,7 @@ import catalogReducer from './catalogSlice';
 import favoritesReducer from './favoritesSlice';
 import filterReducer from './filtersSlice';
 import storage from 'redux-persist/lib/storage'
+import modalReducer from './modalSlice';
 import { FLUSH, PAUSE, PERSIST, persistReducer, persistStore, PURGE, REGISTER, REHYDRATE } from 'redux-persist';
 
 
@@ -18,6 +19,7 @@ export const store = configureStore({
     catalog: catalogReducer,
     favorites: persistedReducer,
     filter: filterReducer,
+    modal: modalReducer,
   },
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware({

@@ -2,10 +2,12 @@ import { CatalogList } from "components/CatalogList/CatalogList";
 import { Header } from "components/Header/Header";
 import { useSelector } from "react-redux";
 import { selectFavorites } from "store/favoritesSelectors";
+import { DetailsModal } from "components/DetailsModal/DetailsModal";
 
 export const FavoritesPage = () => {
     const favorites = useSelector(selectFavorites);
-
+    const modalItem = useSelector((state) => state.modal.item);
+    console.log(modalItem);
     return (
         <>
             <Header />
@@ -14,6 +16,7 @@ export const FavoritesPage = () => {
                     <CatalogList items={favorites} />
                 </div>
             </section>
+            <DetailsModal item={modalItem} />
         </>
     )
 };

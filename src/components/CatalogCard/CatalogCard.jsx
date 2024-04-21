@@ -9,6 +9,7 @@ import { CategoriesList } from "components/CategoriesList/CategoriesList";
 import { useDispatch, useSelector } from "react-redux";
 import { selectIsFavorite } from "../../store/favoritesSelectors";
 import { addFavorite, removeFavorite } from "../../store/favoritesSlice";
+import { setItem } from "store/modalSlice";
 
 export const CatalogCard = ({ item }) => {
     const dispatch = useDispatch();
@@ -16,6 +17,10 @@ export const CatalogCard = ({ item }) => {
 
     const toggleFavorite = () => {
         dispatch(isFavorite ? removeFavorite(item._id) : addFavorite(item));
+    };
+
+    const showDetails = () => {
+        dispatch(setItem(item));
     };
     return (
         <article className="catalog-card">
@@ -39,7 +44,7 @@ export const CatalogCard = ({ item }) => {
                 </div>
                 <p className="catalog-card__description">{item.description}</p>
                 <CategoriesList itemsObject={item.details} minimize />
-                <ActionButton>Book now</ActionButton>
+                <ActionButton onClick={showDetails}>Show more</ActionButton>
             </div>
         </article>
     )
