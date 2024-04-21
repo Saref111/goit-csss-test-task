@@ -4,7 +4,7 @@ import { FilterRadio } from "./FilterRadio";
 import './Filters.css';
 import { useSelector, useDispatch } from "react-redux";
 import { selectFilter } from "../../store/filterSelectors";
-import { addDetail, setLimit, setLocation, setPage } from "../../store/filtersSlice";
+import { setLimit, setLocation, setPage } from "../../store/filtersSlice";
 import { fetchCatalog } from "store/catalogThunks";
 import { fetchCatalogSuccess } from "store/catalogSlice";
 
