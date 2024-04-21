@@ -4,6 +4,7 @@ import { ReactComponent as FavotiresIcon } from "../../icons/heart.svg";
 import { ReactComponent as FavotiresIconActive } from "../../icons/heart-red.svg";
 import { ReactComponent as MapPinIcon } from "../../icons/map-pin.svg";
 import "./CatalogCard.css";
+import { ActionButton } from "components/ActionButton/ActionButton";
 
 export const CatalogCard = ({ item }) => {
     console.log(item);
@@ -28,6 +29,12 @@ export const CatalogCard = ({ item }) => {
                     </button>
                 </div>
                 <p className="catalog-card__description">{item.description}</p>
+                <ul className="catalog-card__categories">
+                    {Object.entries(item.details)?.map(([name, feature]) => (
+                        <li key={name}>{feature} {name}</li>
+                    ))}
+                </ul>
+                <ActionButton>Book now</ActionButton>
             </div>
         </article>
     )

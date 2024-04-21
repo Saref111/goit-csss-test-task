@@ -1,0 +1,16 @@
+.action-button {
+    top: 20px;
+    left: 20px;
+    padding: 16px;
+    min-width: 173px;
+    border-radius: 200px;
+    background-color: rgba(228, 72, 72, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    align-self: start;
+}
+
+.action-button:hover, 
+.action-button:focus {
+    background-color: rgba(216, 67, 67, 1);
+}
