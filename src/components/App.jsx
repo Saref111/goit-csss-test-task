@@ -5,6 +5,7 @@ import { CatalogPage } from "pages/CatalogPage/CatalogPage";
 import { Provider } from 'react-redux';
 import { persistor, store } from "store/store";
 import { PersistGate } from "redux-persist/integration/react";
+import { FavoritesPage } from "pages/FavoritesPage/FavoritesPage";
 
 const router = createBrowserRouter([
   {
@@ -17,7 +18,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/favorites",
-    element: <div>Favorites page</div>,
+    element: <FavoritesPage />,
   },
   {
     path: "*",
