@@ -16,5 +16,6 @@
     background-color: #fff;
     padding: 40px;
     border-radius: 20px;
-    max-height: 720px;
+    max-height: 83vh;
+    overflow: hidden;
 }

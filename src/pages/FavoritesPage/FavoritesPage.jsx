@@ -13,6 +13,7 @@ export const FavoritesPage = () => {
             <Header />
             <section className="section">
                 <div className="section__wrapper">
+                    <h1 className="visually-hidden">Favorites</h1>
                     <CatalogList items={favorites} />
                 </div>
             </section>

@@ -32,6 +32,7 @@ export const CatalogPage = () => {
             <Header />
             <section className="section">
                 <div className="section__wrapper">
+                    <h1 className="visually-hidden">Catalog</h1>
                     <aside className="section__aside">
                         <Filters />
                     </aside>

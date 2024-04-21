@@ -1,0 +1,21 @@
+.features {
+  width: 430px;
+}
+
+.features dl {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+}
+
+.features dl div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
