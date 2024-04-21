@@ -16,11 +16,11 @@ const filterSlice = createSlice({
     loadMore: (state) => {
       state.limit += 4;
     },
+    setLimit: (state, action) => {
+      state.limit = action.payload;
+    },
     setPage: (state, action) => {
       state.page = action.payload;
-    },
-    setPagesCount: (state, action) => {
-      state.pagesCount = action.payload;
     },
     setOutOfLimit: (state) => {
       state.outOfLimit = true;
@@ -42,8 +42,8 @@ const filterSlice = createSlice({
 
 export const { 
   loadMore, 
+  setLimit,
   setPage, 
-  setPagesCount, 
   setOutOfLimit,
   setLocation,
   addDetail,

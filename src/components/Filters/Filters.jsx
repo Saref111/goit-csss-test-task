@@ -4,7 +4,9 @@ import { FilterRadio } from "./FilterRadio";
 import './Filters.css';
 import { useSelector, useDispatch } from "react-redux";
 import { selectFilter } from "../../store/filterSelectors";
-import { addDetail, setLocation } from "../../store/filtersSlice";
+import { addDetail, setLimit, setLocation, setPage } from "../../store/filtersSlice";
+import { fetchCatalog } from "store/catalogThunks";
+import { fetchCatalogSuccess } from "store/catalogSlice";
 
 export const Filters = () => {
     const dispatch = useDispatch();
@@ -13,8 +15,16 @@ export const Filters = () => {
     const onLocationChange = (e) => {
         dispatch(setLocation(e.target.value));
     };
+
+    const onFormSubmit = (e) => {
+        e.preventDefault();
+        dispatch(setLimit(4));
+        dispatch(setPage(1));
+        dispatch(fetchCatalogSuccess([]))
+        dispatch(fetchCatalog());
+    }
     return (
-        <form className="filters-form">
+        <form onSubmit={onFormSubmit} className="filters-form">
             <fieldset>
                 <legend>Location</legend>
                 <input
